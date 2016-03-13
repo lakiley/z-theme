@@ -1,0 +1,24 @@
+<% if (site.tags.length){ %>
+<div class="widget tag">
+    <h3 class="title">联系方式</h3>
+    <ul class="entry">
+        <li>本体：许春昀</li>
+        <li>邮箱：<span id="contact_me">Contact Me</span></li>
+        <li>微博：<a href="http://weibo.com/xuchunyun" target="_blank">@xuchunyun</a></li>
+    </ul>
+</div>
+<script>
+    function contact() {
+        var a, b, c, d, e;
+        b = '&#64;';
+        a = '&#120;&#117&#99;&#104;&#117;&#110;&#121;&#117;&#110;';
+        e = '&#99;';
+        e += '&#111;';
+        c = '&#108;&#105;&#118;&#101;';
+        d = '&#46;';
+        e += '&#109;';
+        return (a + b + c + d + e);
+    }
+    document.getElementById("contact_me").innerHTML = contact();
+</script>
+<% } %>

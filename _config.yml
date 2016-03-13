@@ -1,0 +1,47 @@
+menu:
+  首页: /
+  存档: /archives
+  关于: /about
+  RSS: /atom.xml
+
+# Sidebar
+sidebar: right
+#
+widgets:
+- search
+- category
+- tag
+- recent_posts
+- intro
+
+excerpt_link: 阅读全文
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: false
+  pubid:
+  weibo: true
+  linkedin: true
+  google: false
+  facebook: true
+  twitter: true
+
+copyright:
+  enable: true
+  claim: 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议(CC BY-NC-SA 4.0)
+  claim_link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+  author: David Xu
+  show_link: true
+
+fancybox: true
+
+highlight:
+  enable: true
+
+# google_analytics: (ID)
+# analytics_site_name: blog.lakiley.com
+rss:
